@@ -1,0 +1,142 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--color-footer);
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+}
+
+.skills-feature {
+    display: flex;
+}
+
+.skills-feature .features-container__feature {
+    margin: 0;
+}
+
+.skills-feature .features-container__feature-text {
+    max-width: 700px;
+}
+
+.skills-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+.skills-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+}
+
+.skills-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2rem 0;
+}
+
+.skills-header {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    color: #a46de3;
+    font-family: var(--font-family);
+}
+
+.skills-text {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 500px;
+    margin-top: 1rem;
+    margin: 1rem;
+}
+
+
+/* Customizing feature component as per needs */
+
+.skills-container .features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+    padding: 1rem;
+    background: #263f73;
+    box-shadow: 9px 9px 10px 0px #41415f, -2px -2px 11px #ffffff;
+}
+
+
+/* Customizing feature component as per needs */
+
+.skills-container .features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .skills-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+    .skills-heading p {
+        margin-top: 1rem;
+    }
+    .skills-container {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .skills-feature .features-container__feature {
+        flex-direction: column;
+    }
+    /* Customizing feature component as per needs */
+    .skills-feature .features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+    .skills-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .skills-container .features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

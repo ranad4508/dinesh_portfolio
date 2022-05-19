@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import { Article, Brand, CTA, Feature, Navbar } from './components';
-import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers';
+import { Article, CTA, Feature, Navbar } from './components';
+import { Blog, Features, Footer, Header, Education, Skills, About } from './containers';
 const App = () => {
     return ( <
         div className = 'App' >
@@ -12,18 +12,16 @@ const App = () => {
         <
         Header / >
         <
-        /div> <
-        Brand / >
+        /div>  <
+        Skills / >
         <
-        WhatGPT3 / >
-        <
-        Features / >
-        <
-        Possibility / >
-        <
-        CTA / >
+        Education / >
         <
         Blog / >
+        <
+        About / >
+        <
+        CTA / >
         <
         Footer / >
         <
