@@ -4,7 +4,7 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-    <p><a href='#home'>Home</a></p>
+    <p><a href='../navbar/Navbar.jsx'>Home</a></p>
     <p><a href='#skills'>Skills</a></p>
     <p><a href='#education'>Education</a></p>
     <p><a href='#blog'>Blog</a></p>
@@ -17,7 +17,7 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu, setTogglemenu] = useState(false);
   return (
-    <div className='navbar'>
+    <div className='navbar' id='home'>
       <div className='navbar-links'>
         <div className='navbar-links_logo'>
           <p>DINESH</p>
