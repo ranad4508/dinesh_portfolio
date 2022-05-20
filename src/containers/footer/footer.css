@@ -120,6 +120,15 @@ input[type=submit]:hover {
     input[type=submit]:hover {
         background-color: #72cb77;
     }
+    .form-container label {
+        font-family: var(--font-family);
+        font-size: 21px;
+        color: var(--color-subtext);
+        font-weight: bold;
+    }
+    .form-container {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -141,7 +150,13 @@ input[type=submit]:hover {
         background-color: #72cb77;
     }
     .form-container {
-        width: 80%;
+        width: 100%;
+    }
+    .form-container label {
+        font-family: var(--font-family);
+        font-size: 18px;
+        color: var(--color-subtext);
+        font-weight: bold;
     }
 }
 
@@ -154,6 +169,12 @@ input[type=submit]:hover {
         line-height: 38px;
     }
     .form-container {
-        width: 80%;
+        width: 100%;
+    }
+    .form-container label {
+        font-family: var(--font-family);
+        font-size: 15px;
+        color: var(--color-subtext);
+        font-weight: bold;
     }
 }

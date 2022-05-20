@@ -123,6 +123,9 @@
     .skills-feature .features-container__feature {
         flex-direction: column;
     }
+    .skills-feature .features-container__feature-title h1 {
+        font-size: 20px;
+    }
     /* Customizing feature component as per needs */
     .skills-feature .features-container_feature-text {
         margin-top: 0.5rem;

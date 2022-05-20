@@ -69,4 +69,7 @@
         font-size: 34px;
         line-height: 42px;
     }
+    .blog-container_article-content h3 {
+        font-size: 16px;
+    }
 }
