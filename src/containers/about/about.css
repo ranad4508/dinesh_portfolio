@@ -66,4 +66,7 @@
     .about-image {
         width: 100%;
     }
+    .section_padding {
+        padding: 4rem 2rem;
+    }
 }
