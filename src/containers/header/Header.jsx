@@ -4,7 +4,7 @@ import people from '../../assets/people.png';
 import dinesh from '../../assets/dinesh.JPG';
 const Header = () => {
   return (
-    <div className='header section__padding'>
+    <div className='header section__padding' >
       <div className='header-content'>
         <h1 className='gradient__text'>Hey! I am Dinesh Kumar Rana</h1>
         <p>Let's share knowledge!</p>

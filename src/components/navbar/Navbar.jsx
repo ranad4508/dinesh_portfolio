@@ -4,10 +4,9 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-    <p><a href='../../containers/header/Header.jsx'>Home</a></p>
+    <p><a href='../../components/navbar/home.html'>Home</a></p>
     <p><a href='#skills'>Skills</a></p>
     <p><a href='#education'>Education</a></p>
-    <p><a href='#blog'>Blog</a></p>
     <p><a href='#about'>About</a></p>
     <p><a href='#contact'>Contact</a></p>
   </>

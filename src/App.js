@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Article, CTA, Feature, Navbar } from './components';
-import { Blog, Features, Footer, Header, Education, Skills, About } from './containers';
+import { Features, Footer, Header, Education, Skills, About } from './containers';
 const App = () => {
     return ( <
         div className = 'App' >
@@ -16,8 +16,6 @@ const App = () => {
         Skills / >
         <
         Education / >
-        <
-        Blog / >
         <
         About / >
         <
