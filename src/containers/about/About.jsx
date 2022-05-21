@@ -30,7 +30,7 @@ const aboutData = [
 ];
 
 const About = () => (
-  <div className="about section__padding" id="about">
+  <div className="about section_padding" id="about">
     <h1 className="about-text">About Me</h1>
     <div className="about-heading">
       <div className='about-image'>

@@ -4,6 +4,10 @@
     flex-direction: row;
 }
 
+.section_padding {
+    padding: 4rem 4rem;
+}
+
 .about-text {
     font-size: 3rem;
     color: rgb(190, 90, 203);
