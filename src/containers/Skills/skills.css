@@ -134,6 +134,9 @@
         font-size: 28px;
         line-height: 40px;
     }
+    .skills-header {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 350px) {
